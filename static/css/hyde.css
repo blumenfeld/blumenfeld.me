@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -58,6 +58,10 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #0A3AB2;
+  background-image: url("../ben.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -79,7 +83,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Open Sans", serif;
+  font-family: "Source Sans", serif;
   font-size: 2.25rem;
 }
 
@@ -120,7 +124,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
